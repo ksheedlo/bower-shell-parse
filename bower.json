@@ -1,0 +1,23 @@
+{
+  "name": "shell-parse",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ksheedlo/bower-shell-parse",
+  "authors": [
+    "Ken Sheedlo <ken.sheedlo@rackspace.com>"
+  ],
+  "description": "parse bash using grncdr's js-shell-parse",
+  "main": "shell-parse.js",
+  "keywords": [
+    "bash",
+    "shell",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

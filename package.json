@@ -1,0 +1,26 @@
+{
+  "name": "bower-shell-parse",
+  "version": "0.1.0",
+  "description": "parse bash, in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksheedlo/bower-shell-parse.git"
+  },
+  "author": "Ken Sheedlo <me@kensheedlo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksheedlo/bower-shell-parse/issues"
+  },
+  "homepage": "https://github.com/ksheedlo/bower-shell-parse",
+  "devDependencies": {
+    "array-map": "0.0.0",
+    "browserify": "^5.10.1",
+    "isarray": "0.0.1",
+    "shell-parse": "0.0.2",
+    "uglify-js": "^2.4.15"
+  }
+}
