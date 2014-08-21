@@ -8,7 +8,7 @@ clean:
 parser.min.js: node_modules/shell-parse/parser.js
 	./node_modules/.bin/uglifyjs $^ -m -c >$@
 
-dist/%.min.js: %.js parser.min.js
+dist/%.min.js: %.min.js parser.min.js
 	./node_modules/.bin/browserify $< -o $@
 
 dist/%.js: %.js
